@@ -1,0 +1,32 @@
+body{
+    background-color: #ccb3fa;
+}
+
+h1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+}
+h2{
+    font-size: 48px;
+    font-style: italic;
+    font-weight: normal  ;
+}
+h3{
+    font-size: 38px;
+    text-transform: uppercase; /* uppercase transforma o texto em caixa alta - lowercase transforma em caixa baixa */
+    text-align: center;
+    text-decoration:  underline;
+    background-color: #0000ff;
+}
+p{
+    text-indent: 28px; /* text-indent é a indentação do texto, ou seja, o recuo da primeira linha do parágrafo */
+    font-size: 28px;
+    text-align: left;
+   /* color: #0000FF;  #00f */
+    font-variant: small-caps;
+}
+a{
+    text-decoration: none;
+    font-variant: normal;
+}
