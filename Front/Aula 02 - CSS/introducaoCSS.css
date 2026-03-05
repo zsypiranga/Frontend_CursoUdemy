@@ -30,3 +30,10 @@ a{
     text-decoration: none;
     font-variant: normal;
 }
+.destaque{
+    color: #00b8be;
+    font-weight: bold;
+}
+#destaque{
+    color:  #885800;
+}
