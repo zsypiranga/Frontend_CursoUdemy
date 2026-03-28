@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Operador Lógico</title>
+</head>
+<body>
+
+    <!--Pedir para o usuário digitar dois numeros entre 0 e 10 e mostrar na tela um boolean indicando se a média é menor ou igual 4. Porem, caso um único numero seja 0, deve mostrar true-->
+    
+    <script>
+        let v1 = parseFloat(prompt("Digite um número entre 0 e 10"));
+        let v2 = parseFloat(prompt("Digite outro número entre 0 e 10"));
+
+        let media = (v1 + v2) / 2
+
+        alert("A media é menor ou igual a 4? " + ( media <= 4 || v1 == 0 || v2 == 0))
+    </script>
+</body>
+</html>5
